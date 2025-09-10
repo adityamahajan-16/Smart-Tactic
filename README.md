@@ -10,7 +10,7 @@ Install
 
 - Terraform
 1. Download Terraform https://developer.hashicorp.com/terraform/downloads?utm_source=chatgpt.com
-2. UnZip folder - copy '''terraform.exe''' into a folder like '''C:\Terraform\'''
+2. UnZip folder - copy '''terraform.exe''' into a folder like ```C:\Terraform\```
 3. Add that folder to your system PATH
     Search Environment Variable -> Edit/New -> '''C:\Terraform'''
 4. Verify 
