@@ -2,13 +2,13 @@
 Smart Tactic 
 
 Install
-- VS Code
+- *VS Code*
 
-- Create GitHub account
+-  *GitHub*
 1. Download Git https://git-scm.com/downloads and Run 
 2. Set PATH in enviroenment variable (PATH location)
 
-- Terraform
+- *Terraform*
 1. Download Terraform https://developer.hashicorp.com/terraform/install
 2. UnZip folder - copy ```terraform.exe``` into a folder like ```C:\Terraform\```
 3. Add that folder to your system PATH
@@ -20,13 +20,13 @@ Install
     ```setx PATH "$($env:PATH);C:\terraform" /M```
     Verify: ```terraform -version```
 
-- GCloud SDK
+- *GCloud SDK*
 1. Download GCloud SDK https://cloud.google.com/sdk/docs/install >> https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
 2. Run installer > Select Install GCloud CLI
 3. Restart terminal
     Verify: ```gcloud version```
 
-- Authenticate with GCP
+- *Authenticate with GCP*
 1. Run this in terminal 
     ```gcloud auth application-default login```
 2. A browser window opens > Choose your google account
