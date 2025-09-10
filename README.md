@@ -30,6 +30,6 @@ Install
 1. Run this in terminal 
     ```gcloud auth application-default login```
 2. A browser window opens > Choose your google account
-3. It saves credentials locally at ```%APPDATA%\gcloud\``` OR ```~/.config/gcloud/``` (Mac).
+3. It saves credentials locally at ```%APPDATA%\gcloud\```(Windows) OR ```~/.config/gcloud/```(Mac).
 
     This is required for Terraform to talk to GCP
