@@ -12,11 +12,13 @@ Install
 1. Download Terraform https://developer.hashicorp.com/terraform/install
 2. UnZip folder - copy ```terraform.exe``` into a folder like ```C:\Terraform\```
 3. Add that folder to your system PATH
-    Search Environment Variable -> Edit/New -> ```C:\Terraform```
+    Search Environment Variable 
+    -> Edit/New -> ```C:\Terraform```
 4. Verify 
     ```terraform -version```
 5. Even if couldn't able to find path
-    Close all powershell windows, Open powershell -> Run as administrator. Then run:
+    Close all powershell windows, Open powershell -> Run as administrator. 
+    Then run:
     ```setx PATH "$($env:PATH);C:\terraform" /M```
     Verify: ```terraform -version```
 
