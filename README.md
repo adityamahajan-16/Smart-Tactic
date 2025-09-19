@@ -39,7 +39,7 @@ Verify: `gcloud --version`
 command : `gcloud config list`
 5. To check if we have project link with GCP  
 command : `gcloud config get-value project`  
-It will show if set, if not set your GCP project using *PROJECT_ID*  
+It will show if set, if not set your GCP project using **PROJECT_ID**  
 command : `gcloud config set project PROJECT_ID`  
 Then try again **step 4** and you will able to be **account** and **project**
 6. Go to location where are terraform files are located  
