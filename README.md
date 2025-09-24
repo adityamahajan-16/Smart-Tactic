@@ -69,10 +69,11 @@ Create `develop` branch (Staging)
 `git checkout -b develop`  
 
 3. Create Branch Protection Rules  
-Branch Ruleset for `develop`/`main` 
-Setting >> Branches >> Add Branch Rulset  
+- Branch Ruleset for `develop`/`main`  
+- Setting >> Branches >> Add Branch Rulset  
 - Rulset Name  
 - Target Branches >> Add Target >> Include by Pateern >> `develop`  
+- Select Checks:  
     1. Require a pull request (PR) before merging atleast 2 reviewers  
     2. Require review from Code Owners  
     3. Require conversation resolution before merging  
