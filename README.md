@@ -53,3 +53,34 @@ command : (If `project_id` is added in file `terraform.tfvars`)
 `terraform plan`  
 `terraform apply -auto-approve`  
 This is required for Terraform to talk to GCP
+
+--------------------------------------------------------------------------------------------------------------
+
+GitHub Branching Stratergy:
+
+1. Create Repository  
+Create **GitHub account** and **New repository** and initialize with the **README.md**  
+`main` -> Production
+`develop` -> Staging 
+
+2. Create Base Branches  
+Create `develop` branch (Staging)  
+`git clone "GITHUB Repository link"`      
+`git checkout -b develop`  
+
+3. Create Branch Protection Rules  
+Branch Ruleset for `develop`/`main` 
+Setting >> Branches >> Add Branch Rulset  
+- Rulset Name  
+- Target Branches >> Add Target >> Include by Pateern >> `develop`  
+    1. Require a pull request (PR) before merging atleast 2 reviewers  
+    2. Require review from Code Owners  
+    3. Require conversation resolution before merging  
+    4. Allowed merge methods (Merge, Squash, Rebase)  
+    5. Require Status Checks to pass (Optional)  
+    6. Block force pushes  
+
+  
+
+
+
