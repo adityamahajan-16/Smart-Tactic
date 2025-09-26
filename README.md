@@ -56,7 +56,7 @@ This is required for Terraform to talk to GCP
 
 --------------------------------------------------------------------------------------------------------------
 
-GitHub Branching Stratergy:
+**GitHub Branching Stratergy**:
 
 1. Create Repository  
 Create **GitHub account** and **New repository** and initialize with the **README.md**  
