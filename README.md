@@ -80,6 +80,8 @@ Create `develop` branch (Staging)
     4. Allowed merge methods (Merge, Squash, Rebase)  
     5. Require Status Checks to pass (Optional)  
     6. Block force pushes  
+- Click on **Create**  
+
 
   
 
