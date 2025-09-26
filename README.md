@@ -119,16 +119,16 @@ Verify : `git config user.email`
 - `git fetch` : Fetch Updates (Without merging)  
 
 6. *Viewing History*  
-- git log : Commit History  
-- git log --oneline --graph --all : Compact History with Branches  
-- git diff : Show Unstaged Changes  
-- git diff --staged : Show Staged Changes  
+- `git log` : Commit History  
+- `git log --oneline --graph --all` : Compact History with Branches  
+- `git diff` : Show Unstaged Changes  
+- `git diff --staged` : Show Staged Changes  
 
 7. *Undo & CleanUp*
-- git restore <File Name> : Undo Changes in Working Directory  
-- git restore --staged <File Name> : Unstaged File  
-- git reset --hard <Commit ID> : Reset Repo to Commit ID, but delete Uncommited Work  
-- git revert <Commit ID> : Create a New Commit that undoes a Commit ID  
+- `git restore <File Name>` : Undo Changes in Working Directory  
+- `git restore --staged <File Name>` : Unstaged File  
+- `git reset --hard <Commit ID>` : Reset Repo to Commit ID, but delete Uncommited Work  
+- `git revert <Commit ID>` : Create a New Commit that undoes a Commit ID  
 
 
 
