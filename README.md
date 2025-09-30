@@ -95,13 +95,13 @@ Verify : `git config user.email`
 - `git config --list`                                  # Check Current Config  
 ```
 
-## *Repository Initialization*  
+## Repository Initialization 
 ```bash
 - `git init`                                           # Initialize New Git Repo  
 - `git clone <repo-URL>`                               # Clone an existing repo on GitHub  
 ```
 
-## *Basic Workflow*  
+## Basic Workflow  
 ```bash
 - `git status`                                         # Show Repo Status (Stage/Unstaged/Untracked files)  
 - `git add .`                                          # Stage all changes   
@@ -109,7 +109,7 @@ Verify : `git config user.email`
 - `git commit -m "update message"`                     # Commit Staged Changes  
 ```
 
-## *Branching & Merging*  
+## Branching & Merging 
 ```bash
 - `git branch`                                         # List Branches  
 - `git branch <Branch Name>`                           # Create New Branch
@@ -119,7 +119,7 @@ Verify : `git config user.email`
 - `git branch -d <Branch Name>`                        # Delete the Branch  
 ```
 
-## *Remaote Repositories*
+## Remaote Repositories
 ```bash
 - `git remote -v`                                      # Show Remotes  
 - `git remote add origin <URL>`                        # Add Remote  
@@ -128,7 +128,7 @@ Verify : `git config user.email`
 - `git fetch`                                          # Fetch Updates (Without merging)  
 ```
 
-## *Viewing History*  
+## Viewing History  
 ```bash
 - `git log`                                            # Commit History  
 - `git log --oneline --graph --all`                    # Compact History with Branches  
@@ -136,7 +136,7 @@ Verify : `git config user.email`
 - `git diff --staged`                                  # Show Staged Changes  
 ```
 
-## *Undo & CleanUp*
+## Undo & CleanUp
 ```bash
 - `git restore <File Name>`                            # Undo Changes in Working Directory  
 - `git restore --staged <File Name>`                   # Unstaged File  
