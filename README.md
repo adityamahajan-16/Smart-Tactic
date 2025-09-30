@@ -84,52 +84,65 @@ Create `develop` branch (Staging)
 
 --------------------------------------------------------------------------------------------------------------
 
-**Quick Git Reference Handbook**  
+# Quick Git Reference Handbook  
 
-1. *SetUp & COnfiguration*  
-- `git config --global user.name "Your Name"` : Set Your Name  
+## SetUp & Configuration  
+```bash  
+- `git config --global user.name "Your Name"`          #  Set Your Name  
 Verify : `git config user.name`  
-- `git config --global user.email "you@example.com"` : Set Your Email  
-Verify : `git config user.email`  
-- `git config --list` : Check Current Config  
+- `git config --global user.email "you@example.com"`   #  Set Your Email  
+Verify : `git config user.email` 
+- `git config --list`                                  # Check Current Config  
+```
 
-2. *Repository Initialization*  
-- `git init` : Initialize New Git Repo  
-- `git clone <repo-URL>` : Clone an existing repo on GitHub  
+## *Repository Initialization*  
+```bash
+- `git init`                                           # Initialize New Git Repo  
+- `git clone <repo-URL>`                               # Clone an existing repo on GitHub  
+```
 
-3. *Basic Workflow*  
-- `git status` : Show Repo Status (Stage/Unstaged/Untracked files)  
-- `git add .` : Stage all changes   
-- `git add <file>` : Stage Changes  
-- `git commit -m "update message"` : Commit Staged Changes  
+## *Basic Workflow*  
+```bash
+- `git status`                                         # Show Repo Status (Stage/Unstaged/Untracked files)  
+- `git add .`                                          # Stage all changes   
+- `git add <file>`                                     # Stage Changes  
+- `git commit -m "update message"`                     # Commit Staged Changes  
+```
 
-4. *Branching & Merging*  
-- `git branch` : List Branches  
-- `git branch <Branch Name>` : Create New Branch
-- `git checkout -b <Branch Name>` : Create and Switch to Branch  
-- `git checkout <Branch Name>` : Switch to Branch  
-- `git merge <Branch Name>` : Merge Branch into Current Branch  
-- `git branch -d <Branch Name>` : Delete the Branch  
+## *Branching & Merging*  
+```bash
+- `git branch`                                         # List Branches  
+- `git branch <Branch Name>`                           # Create New Branch
+- `git checkout -b <Branch Name>`                      # Create and Switch to Branch  
+- `git checkout <Branch Name>`                         # Switch to Branch  
+- `git merge <Branch Name>`                            # Merge Branch into Current Branch  
+- `git branch -d <Branch Name>`                        # Delete the Branch  
+```
 
-5. *Remaote Repositories*
-- `git remote -v` : Show Remotes  
-- `git remote add origin <URL>` : Add Remote  
-- `git push origin <Branch Name>` : Push Branch to Remote  
-- `git pull origin <Branch Name>` : Pull Latest Changes  
-- `git fetch` : Fetch Updates (Without merging)  
+## *Remaote Repositories*
+```bash
+- `git remote -v`                                      # Show Remotes  
+- `git remote add origin <URL>`                        # Add Remote  
+- `git push origin <Branch Name>`                      # Push Branch to Remote  
+- `git pull origin <Branch Name>`                      # Pull Latest Changes  
+- `git fetch`                                          # Fetch Updates (Without merging)  
+```
 
-6. *Viewing History*  
-- `git log` : Commit History  
-- `git log --oneline --graph --all` : Compact History with Branches  
-- `git diff` : Show Unstaged Changes  
-- `git diff --staged` : Show Staged Changes  
+## *Viewing History*  
+```bash
+- `git log`                                            # Commit History  
+- `git log --oneline --graph --all`                    # Compact History with Branches  
+- `git diff`                                           # Show Unstaged Changes  
+- `git diff --staged`                                  # Show Staged Changes  
+```
 
-7. *Undo & CleanUp*
-- `git restore <File Name>` : Undo Changes in Working Directory  
-- `git restore --staged <File Name>` : Unstaged File  
-- `git reset --hard <Commit ID>` : Reset Repo to Commit ID, but delete Uncommited Work  
-- `git revert <Commit ID>` : Create a New Commit that undoes a Commit ID  
-
+## *Undo & CleanUp*
+```bash
+- `git restore <File Name>`                            # Undo Changes in Working Directory  
+- `git restore --staged <File Name>`                   # Unstaged File  
+- `git reset --hard <Commit ID>`                       # Reset Repo to Commit ID, but delete Uncommited Work  
+- `git revert <Commit ID>`                             # Create a New Commit that undoes a Commit ID  
+```
 
 
 
