@@ -56,19 +56,18 @@ This is required for Terraform to talk to GCP
 
 --------------------------------------------------------------------------------------------------------------
 
-**GitHub Branching Stratergy**:
-
-1. Create Repository  
+# GitHub Branching Stratergy  
+## Create Repository  
 Create **GitHub account** and **New repository** and initialize with the **README.md**  
 `main` -> Production
 `develop` -> Staging 
 
-2. Create Base Branches  
+## Create Base Branches  
 Create `develop` branch (Staging)  
 `git clone "GITHUB Repository link"`      
 `git checkout -b develop`  
 
-3. Create Branch Protection Rules  
+## Create Branch Protection Rules  
 - Branch Ruleset for `develop`/`main`  
 - Setting >> Branches >> Add Branch Rulset  
 - Rulset Name  
@@ -81,11 +80,8 @@ Create `develop` branch (Staging)
     5. Require Status Checks to pass (Optional)  
     6. Block force pushes  
 - Click on **Create**  
-
 --------------------------------------------------------------------------------------------------------------
-
 # Quick Git Reference Handbook  
-
 ## SetUp & Configuration  
 ```bash  
 - `git config --global user.name "Your Name"`          #  Set Your Name  
@@ -105,7 +101,7 @@ Verify : `git config user.email`
 ```bash
 - `git status`                                         # Show Repo Status (Stage/Unstaged/Untracked files)  
 - `git add .`                                          # Stage all changes   
-- `git add <file>`                                     # Stage Changes  
+- `git add <file>`                                     # Stage Changes in specific file    
 - `git commit -m "update message"`                     # Commit Staged Changes  
 ```
 
